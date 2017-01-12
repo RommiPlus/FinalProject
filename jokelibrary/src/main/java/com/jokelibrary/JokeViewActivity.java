@@ -14,4 +14,6 @@ public class JokeViewActivity extends Activity {
         String joke = getIntent().getStringExtra(JOKE_DATA);
         ((TextView)findViewById(R.id.joke_info)).setText(joke);
     }
+
+
 }

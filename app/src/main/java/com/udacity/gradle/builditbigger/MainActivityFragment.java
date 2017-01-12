@@ -27,7 +27,7 @@ public class MainActivityFragment extends Fragment {
 
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
         TextView jokeView = (TextView) root.findViewById(R.id.joke_view);
-        jokeView.setText("JokeWizard: " + new JokeWizard().getJoke());
+        jokeView.setText("JokeWizard: " + new JokeWizard().getJoke("JokeWizard"));
 
         // Create an ad request. Check logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.
