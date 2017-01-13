@@ -15,18 +15,10 @@
         android:layout_height="wrap_content"
         android:text="@string/instructions" />
 
-    <TextView
-        android:id="@+id/joke_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/instructions_text_view"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:text="@string/instructions" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/joke_view"
+        android:layout_below="@+id/instructions_text_view"
         android:layout_marginTop="@dimen/activity_horizontal_margin"
         android:onClick="tellJoke"
         android:text="@string/button_text" />
